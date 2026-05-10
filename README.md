@@ -1,6 +1,14 @@
 # PRODIGY_CS_01-
 Ceasercipher encryption and decryption tool.
 
+██████╗ █████╗ ███████╗███████╗ █████╗ ██████╗      ██████╗██╗██████╗ ██╗  ██╗███████╗██████╗ 
+██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗    ██╔════╝██║██╔══██╗██║  ██║██╔════╝██╔══██╗
+██║     ███████║█████╗  ███████╗███████║██████╔╝    ██║     ██║██████╔╝███████║█████╗  ██████╔╝
+██║     ██╔══██║██╔══╝  ╚════██║██╔══██║██╔══██╗    ██║     ██║██╔═══╝ ██╔══██║██╔══╝  ██╔══██╗
+╚██████╗██║  ██║███████╗███████║██║  ██║██║  ██║    ╚██████╗██║██║     ██║  ██║███████╗██║  ██║
+ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝     ╚═════╝╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+
+
 A professional Command Line Interface (CLI) tool built in Python for message encryption and decryption using the Caesar Cipher algorithm. This project was developed as part of a cybersecurity internship project to demonstrate foundational cryptographic concepts and file handling. 
 
 🚀 FeaturesEncryption: Shifts alphabetic characters by a user-defined integer value.  Decryption: Reverses the shift from a saved text file to retrieve the original message.  
