@@ -28,6 +28,7 @@ Navigate to the project directory and execute:
 
 Bash
 python caesar_tool.py
+
 🚀 Usage Steps
 Encrypt: Select Option 1, enter your text, set a shift value, and name your file.
 
