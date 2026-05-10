@@ -1,28 +1,39 @@
-# PRODIGY_CS_01-
-Ceasercipher encryption and decryption tool.
+# PRODIGY_CS_01
 
-██████╗ █████╗ ███████╗███████╗ █████╗ ██████╗      ██████╗██╗██████╗ ██╗  ██╗███████╗██████╗ 
+![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python)
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
+![Internship](https://img.shields.io/badge/Built%20With-❤️-orange?style=for-the-badge)
+
+[![Status](https://img.shields.io/badge/Task-01--Complete-brightgreen?style=flat-square)](https://github.com/noufalns)
+[![Prodigy InfoTech](https://img.shields.io/badge/Organization-Prodigy%20InfoTech-lightgrey?style=flat-square)](https://prodigyinfotech.dev)
+
+```text
+ ██████╗ █████╗ ███████╗███████╗ █████╗ ██████╗      ██████╗██╗██████╗ ██╗  ██╗███████╗██████╗ 
 ██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗    ██╔════╝██║██╔══██╗██║  ██║██╔════╝██╔══██╗
 ██║     ███████║█████╗  ███████╗███████║██████╔╝    ██║     ██║██████╔╝███████║█████╗  ██████╔╝
 ██║     ██╔══██║██╔══╝  ╚════██║██╔══██║██╔══██╗    ██║     ██║██╔═══╝ ██╔══██║██╔══╝  ██╔══██╗
 ╚██████╗██║  ██║███████╗███████║██║  ██║██║  ██║    ╚██████╗██║██║     ██║  ██║███████╗██║  ██║
  ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝     ╚═════╝╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 
+📖 Description
+A professional Command Line Interface (CLI) tool built in Python for message encryption and decryption using the Caesar Cipher algorithm. This project was developed during my cybersecurity internship at Prodigy InfoTech to explore foundational cryptographic concepts and secure file handling.
 
-A professional Command Line Interface (CLI) tool built in Python for message encryption and decryption using the Caesar Cipher algorithm. This project was developed as part of a cybersecurity internship project to demonstrate foundational cryptographic concepts and file handling. 
+🛠️ Installation & Setup
+1. Prerequisites
+Ensure you have Python 3.x installed. You can check your version by running:
+python --version
 
-🚀 FeaturesEncryption: Shifts alphabetic characters by a user-defined integer value.  Decryption: Reverses the shift from a saved text file to retrieve the original message.  
+2. Run the Tool
+Navigate to the project directory and execute:
 
-File Handling: Allows users to save encrypted messages to custom .txt files and read from them later for decryption. 
-Character Preservation: Maintains original letter casing (uppercase/lowercase) and keeps punctuation and spaces intact.  
-User Interface: Features a clean CLI with custom ASCII art branding and defensive error handling. 
+Bash
+python caesar_tool.py
+🚀 Usage Steps
+Encrypt: Select Option 1, enter your text, set a shift value, and name your file.
 
-🛠️ How to UseRun the script:  Bashpython caesar_tool.py
+Decrypt: Select Option 2, input the filename and the corresponding shift value.
 
-Encrypt:  Select Option 1 from the main menu.  Enter the message you wish to secure and a shift key (e.g., 3).  Provide a custom filename (the tool automatically adds the .txt extension). 
+Exit: Select Option 3 to close the interface.
 
-Decrypt:  Select Option 2 from the main menu.  Enter the exact filename of the encrypted document.  Enter the correct shift key to reveal the original phrase.  
-
-📝 Technical DetailsUnicode Logic: The tool utilizes Python's built-in ord() and chr() functions to map characters to their numerical counterparts.  Wrap-around Logic: Implements the modulo operator % 26 to ensure that shifts at the end of the alphabet (like 'Z') wrap back to the beginning ('A').  Input Validation: Includes file existence checks using the os module to prevent runtime crashes if a file is missing.  
-
-⚠️ DisclaimerThe Caesar Cipher is a simple substitution cipher and is easily cracked using frequency analysis or brute-force methods. This tool is intended for educational and internship demonstration purposes only and should not be used to protect sensitive production-level data. 
+⚠️ Disclaimer
+The Caesar Cipher is a basic substitution cipher and is vulnerable to modern cryptanalysis. This tool is intended strictly for educational purposes as part of the Prodigy InfoTech internship program.
